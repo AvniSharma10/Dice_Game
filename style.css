@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use Arial font */
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #333; /* Dark border */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff; /* White background */
+}
+
+.dice {
+    display: inline-block;
+    margin: 20px;
+}
+
+.bottom {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333; /* Dark text color */
+}
+
+p {
+    font-size: 18px;
+    color: #666; /* Medium gray text color */
+}
